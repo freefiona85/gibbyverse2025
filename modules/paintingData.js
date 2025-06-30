@@ -316,6 +316,21 @@ export const paintingData = [
      link: 'artworks/Vanityuwu.png',
     },
   }),
+  
+    ({
+    imgSrc: `assets/credits.png`, 
+    width: 20, // width of the painting
+    height: 13, // height of the painting
+    position: { x: 0, y: 3.3, z: 79.6 }, // position of the painting
+    rotationY: Math.PI, // rotation of the painting
+    info: {
+      // info about the painting
+      //wtitle: `Bubbyverse`,
+      artist: `Credits to All the Bubbies! (And Link to Zine!)`,
+	  additional: '',
+     link: 'https://heyzine.com/flip-book/afb5edd39b.html',
+    },
+  }),
   // Front Wall
  /* ...Array.from({ length: 4 }, (_, i) => ({
     // Array.from creates an array from an array-like object. The first parameter is the array-like object. The second parameter is a map function that is called for each element in the array-like object. The map function takes two parameters: the element and the index. The map function returns the value that will be added to the new array. In this case, we are returning an object with the painting data. `_` is a placeholder for the element. We don't need it because we are not using the element. `i` is the index. We use it to set the painting number.
