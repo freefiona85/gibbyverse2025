@@ -3,13 +3,13 @@ export const paintingData = [
 ({
     // Array.from creates an array from an array-like object. The first parameter is the array-like object. The second parameter is a map function that is called for each element in the array-like object. The map function takes two parameters: the element and the index. The map function returns the value that will be added to the new array. In this case, we are returning an object with the painting data. `_` is a placeholder for the element. We don't need it because we are not using the element. `i` is the index. We use it to set the painting number.
     imgSrc: `artworks/akira.png`, 
-    width: 5, // width of the painting
-    height: 5, // height of the painting
-    position: { x: -15 + 20, y: 2, z: -39.5 }, // position of the painting
+    width: 10, // width of the painting
+    height: 10, // height of the painting
+    position: { x: 14, y: 3.3, z: 10.6 }, // position of the painting
     rotationY: 0, // rotation of the painting
     info: {
       // info about the painting
-      //title: `Bubbyverse`,
+      //wtitle: `Bubbyverse`,
       artist: 'Akira',
      // link: 'https://github.com/theringsofsaturn',
     },
