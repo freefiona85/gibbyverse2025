@@ -55,7 +55,7 @@ export function createWalls(scene, textureLoader) {
 
   // test middle wall
   const middleWall = new THREE.Mesh(
-    new THREE.BoxGeometry(20, 20, 1),
+    new THREE.BoxGeometry(80, 20, 1),
     wallMaterial 
   );
   middleWall.position.z = 10;
