@@ -6,7 +6,7 @@ export const loadBubbyModel = (scene) => {
   const loader = new GLTFLoader();
 
   loader.load(
-    "../public/models/bubby/testBubby.gltf",
+    "models/bubby/testBubby.gltf",
     (gltf) => {
       const bubby = gltf.scene;
 
