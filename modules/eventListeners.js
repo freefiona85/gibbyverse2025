@@ -78,12 +78,12 @@ function onKeyDown(event, controls) {
 
   if (event.key === "g") {
     // if the "a" key is pressed
-    startAudio(); // start the audio guide
+    //startAudio(); // start the audio guide
   }
 
   if (event.key === "p") {
     // if the "s" key is pressed
-    stopAudio(); // stop the audio guide
+    //stopAudio(); // stop the audio guide
   }
 
   if (event.key === "m") {

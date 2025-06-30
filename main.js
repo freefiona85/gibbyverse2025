@@ -16,6 +16,7 @@ import { setupVR } from "./modules/VRSupport.js";
 //import { loadStatueModel } from "./modules/statue.js";
 //import { loadPunikoModel } from "./modules/puniko.js";
 import { loadBubbyModel } from "./modules/bubby.js";
+import { loadBubbyGuardian } from "./modules/bubbyguardian.js";
 import { loadBenchModel } from "./modules/bench.js";
 import { loadCeilingLampModel } from "./modules/ceilingLamp.js";
 
@@ -47,6 +48,8 @@ setupRendering(scene, camera, renderer, paintings, controls, walls);
 //loadStatueModel(scene);
 
 //loadPunikoModel(scene);
+
+loadBubbyGuardian(scene, textureLoader);
 
 loadBubbyModel(scene);
 
