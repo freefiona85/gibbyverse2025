@@ -312,7 +312,7 @@ canvas {
 }
 
 .lil-gui {
-  display: none;
+  display: none !important;
 }
 
 #about-overlay {
