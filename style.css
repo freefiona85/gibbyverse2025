@@ -192,7 +192,7 @@ canvas {
   margin-bottom: 1em;
 }
 
-#starry_night_bg {
+#giibyverse_bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -207,7 +207,7 @@ canvas {
   background-attachment: fixed;
 }
 
-#starry_night_bg:before {
+#gibbyverse_bg:before {
   content: "";
   position: absolute;
   top: 0;
