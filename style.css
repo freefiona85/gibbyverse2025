@@ -311,6 +311,10 @@ canvas {
   overflow: hidden;
 }
 
+.lil-gui {
+  display: none;
+}
+
 #about-overlay {
   position: fixed;
   top: 0;
