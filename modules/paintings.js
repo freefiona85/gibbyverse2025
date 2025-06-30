@@ -10,7 +10,7 @@ export function createPaintings(scene, textureLoader) {
    
     const painting = new THREE.Mesh( 
       new THREE.PlaneGeometry(data.width, data.height),
-      new THREE.MeshLambertMaterial({ map: textureLoader.load(data.imgSrc) })
+      new THREE.MeshLambertMaterial({ map: textureLoader.load(data.imgSrc), transparent: true })
     );
 
     painting.position.set(data.position.x, data.position.y, data.position.z); 

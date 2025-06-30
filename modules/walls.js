@@ -55,13 +55,20 @@ export function createWalls(scene, textureLoader) {
 
   // test middle wall
   const middleWall = new THREE.Mesh(
-    new THREE.BoxGeometry(80, 20, 1),
+    new THREE.BoxGeometry(75, 20, 1),
     wallMaterial 
   );
   middleWall.position.z = 10;
-  middleWall.position.x = -10;
+  middleWall.position.x = -44;
+  
+  const middleWall2 = new THREE.Mesh(
+    new THREE.BoxGeometry(75, 20, 1),
+    wallMaterial 
+  );
+  middleWall2.position.z = 10;
+  middleWall2.position.x = 44;
 
-  wallGroup.add(frontWall, backWall, leftWall, rightWall, middleWall);
+  wallGroup.add(frontWall, backWall, leftWall, rightWall, middleWall, middleWall2);
 
   return wallGroup;
 }
