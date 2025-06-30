@@ -200,7 +200,8 @@ canvas {
   height: 100%;
   background-image: url("/assets/gbvlogo.png");
   background-size: contain;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top center;
   z-index: -1;
   /*animation: panBg 30s linear infinite; */
   background-attachment: fixed;
