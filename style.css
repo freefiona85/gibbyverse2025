@@ -104,7 +104,7 @@ canvas {
 
 #menu #img_container {
   position: relative;
-  height: 14.5em;
+  /*height: 14.5em;*/
   overflow: hidden;
   border-top-left-radius: 0.9em;
   border-top-right-radius: 0.9em;
