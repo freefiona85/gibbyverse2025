@@ -27,7 +27,7 @@ export const paintingData = [
     rotationY: Math.PI,
     info: {
       title: `Bubbyverse ${i + 5}`,
-      artist: 'Vincent van Gogh',
+      artist: '',
       description: `Artwork ${
         i + 5
       } `,
@@ -44,7 +44,7 @@ export const paintingData = [
     rotationY: Math.PI / 2,
     info: {
       title: `Bubbyverse ${i + 9}`,
-      artist: 'Vincent van Gogh',
+      artist: '',
       description: `Artwork ${
         i + 9
       } `,
