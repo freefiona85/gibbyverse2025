@@ -332,12 +332,12 @@ export const paintingData = [
     },
   }),
   // Front Wall
- ...Array.from({ length: 10 }, (_, i) => ({
+ ...Array.from({ length: 12 }, (_, i) => ({
     // Array.from creates an array from an array-like object. The first parameter is the array-like object. The second parameter is a map function that is called for each element in the array-like object. The map function takes two parameters: the element and the index. The map function returns the value that will be added to the new array. In this case, we are returning an object with the painting data. `_` is a placeholder for the element. We don't need it because we are not using the element. `i` is the index. We use it to set the painting number.
     imgSrc: `messages/${i + 1}.png`, // `i + 1` is the painting number. We add 1 to the index because the index starts at 0 but we want the painting numbers to start at 1.
-    width: 12, // width of the painting
-    height: 9, // height of the painting
-    position: { x: -70 + 15 * i, y: 2, z: -79.5 }, // position of the painting
+    width: 10, // width of the painting
+    height: 7.5, // height of the painting
+    position: { x: -72 + 13 * i, y: 2, z: -79.5 }, // position of the painting
     rotationY: 0, // rotation of the painting
     info: {
       // info about the painting
@@ -346,66 +346,60 @@ export const paintingData = [
       link: `messages/${i + 1}.png`,
     },
   })),
- /* // Back Wall 1
-  ...Array.from({ length: 4 }, (_, i) => ({
-    imgSrc: `artworks/${i + }.jpg`,
-    width: 10, // width of the painting
-    height: 7.5, // height of the painting
-    position: { x: -15 + 20 * i, y: 2, z: 39.5 },
+  // Back Wall 1
+  ...Array.from({ length: 6 }, (_, i) => ({
+    imgSrc: `messages/${i + 20 }.png`,
+    width: 9, // width of the painting
+    height: 6.75, // height of the painting
+    position: { x: 73 - 12 * i, y: 2, z: 9 },
     rotationY: Math.PI,
     info: {
       // info about the painting
       artist: 'Bubbies',
 	  additional:'',
-      link: `messages/${i + 1}.png`,
+      link: `messages/${i + 20}.png`,
     },
   })),
     // Back Wall 2
-  ...Array.from({ length: 4 }, (_, i) => ({
-    imgSrc: `messages/${i + 1}.png`, // `i + 1` is the painting number. We add 1 to the index because the index starts at 0 but we want the painting numbers to start at 1.
-    width: 12, // width of the painting
-    height: 9, // height of the painting
-    position: { x: -15 + 20 * i, y: 2, z: 39.5 },
+  ...Array.from({ length: 6 }, (_, i) => ({
+    imgSrc: `messages/${i + 26}.png`, // `i + 1` is the painting number. We add 1 to the index because the index starts at 0 but we want the painting numbers to start at 1.
+    width: 9, // width of the painting
+    height: 6.75, // height of the painting
+    position: { x: -12 - 12 * i, y: 2, z: 9 },
     rotationY: Math.PI,
     info: {
       // info about the painting
       artist: 'Bubbies',
 	  additional:'',
-      link: `messages/${i + 1}.png`,
+      link: `messages/${i + 26}.png`,
     },
   })), 
   // Left Wall
- /* ...Array.from({ length: 4 }, (_, i) => ({
-    imgSrc: `artworks/${i + 9}.jpg`,
-    width: 5,
-    height: 3,
-    position: { x: -39.5, y: 2, z: -15 + 20 * i },
+ ...Array.from({ length: 8 }, (_, i) => ({
+    imgSrc: `messages/${i + 32}.png`,
+    width: 8,
+    height: 6,
+    position: { x: -79.5, y: 2, z: 2 - 11 * i },
     rotationY: Math.PI / 2,
     info: {
-      title: `Bubbyverse ${i + 9}`,
-      artist: '',
-      description: `Artwork ${
-        i + 9
-      } `,
-     // year: `Year ${i + 9}`,
-      //link: 'https://github.com/theringsofsaturn',
+      // info about the painting
+      artist: 'Bubbies',
+	  additional:'',
+      link: `messages/${i + 32}.png`,
     },
   })),
   // Right Wall
-  ...Array.from({ length: 4 }, (_, i) => ({
-    imgSrc: `artworks/${i + 13}.jpg`,
-    width: 5,
-    height: 3,
-    position: { x: 39.5, y: 2, z: -15 + 20 * i },
+  ...Array.from({ length: 7 }, (_, i) => ({
+    imgSrc: `messages/${i + 13}.png`,
+    width: 9,
+    height: 6.75,
+    position: { x: 79.5, y: 2, z: -73 + 12 * i },
     rotationY: -Math.PI / 2,
     info: {
-      title: `Bubbyverse ${i + 13}`,
-      artist: '',
-      description: `Artwork ${
-        i + 13
-      } `,
-      //year: `Year ${i + 13}`,
-      //link: 'https://github.com/theringsofsaturn',
+      // info about the painting
+      artist: 'Bubbies',
+	  additional:'',
+      link: `messages/${i + 13}.png`,
     },
-  })),*/
+  })),
 ];
