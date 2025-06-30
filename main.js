@@ -13,7 +13,9 @@ import { setupPlayButton } from "./modules/menu.js";
 import { setupAudio } from "./modules/audioGuide.js";
 import { clickHandling } from "./modules/clickHandling.js";
 import { setupVR } from "./modules/VRSupport.js";
-import { loadStatueModel } from "./modules/statue.js";
+//import { loadStatueModel } from "./modules/statue.js";
+//import { loadPunikoModel } from "./modules/puniko.js";
+import { loadBubbyModel } from "./modules/bubby.js";
 import { loadBenchModel } from "./modules/bench.js";
 import { loadCeilingLampModel } from "./modules/ceilingLamp.js";
 
@@ -42,7 +44,11 @@ clickHandling(renderer, camera, paintings);
 
 setupRendering(scene, camera, renderer, paintings, controls, walls);
 
-loadStatueModel(scene);
+//loadStatueModel(scene);
+
+//loadPunikoModel(scene);
+
+loadBubbyModel(scene);
 
 loadBenchModel(scene);
 

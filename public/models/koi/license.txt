@@ -1,0 +1,11 @@
+Model Information:
+* title:	Another Koi
+* source:	https://sketchfab.com/3d-models/another-koi-cf561a49a05e427b889c2151ae29ce32
+* author:	BunnyGame (https://sketchfab.com/bunnyGame)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Another Koi" (https://sketchfab.com/3d-models/another-koi-cf561a49a05e427b889c2151ae29ce32) by BunnyGame (https://sketchfab.com/bunnyGame) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -28,7 +28,7 @@ export const setupFloor = (scene) => {
   roughnessTexture.wrapS = roughnessTexture.wrapT = THREE.RepeatWrapping;
   aoTexture.wrapS = aoTexture.wrapT = THREE.RepeatWrapping;
 
-  const planeGeometry = new THREE.PlaneGeometry(45, 45);
+  const planeGeometry = new THREE.PlaneGeometry(160, 160);
   const planeMaterial = new THREE.MeshStandardMaterial({
     map: colorTexture,
     displacementMap: displacementTexture,

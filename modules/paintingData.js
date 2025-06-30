@@ -5,7 +5,7 @@ export const paintingData = [
     imgSrc: `artworks/${i + 1}.jpg`, // `i + 1` is the painting number. We add 1 to the index because the index starts at 0 but we want the painting numbers to start at 1.
     width: 5, // width of the painting
     height: 3, // height of the painting
-    position: { x: -15 + 10 * i, y: 2, z: -19.5 }, // position of the painting
+    position: { x: -15 + 20 * i, y: 2, z: -39.5 }, // position of the painting
     rotationY: 0, // rotation of the painting
     info: {
       // info about the painting
@@ -23,7 +23,7 @@ export const paintingData = [
     imgSrc: `artworks/${i + 5}.jpg`,
     width: 5,
     height: 3,
-    position: { x: -15 + 10 * i, y: 2, z: 19.5 },
+    position: { x: -15 + 20 * i, y: 2, z: 39.5 },
     rotationY: Math.PI,
     info: {
       title: `Van Gogh ${i + 5}`,
@@ -40,7 +40,7 @@ export const paintingData = [
     imgSrc: `artworks/${i + 9}.jpg`,
     width: 5,
     height: 3,
-    position: { x: -19.5, y: 2, z: -15 + 10 * i },
+    position: { x: -39.5, y: 2, z: -15 + 20 * i },
     rotationY: Math.PI / 2,
     info: {
       title: `Van Gogh ${i + 9}`,
@@ -57,7 +57,7 @@ export const paintingData = [
     imgSrc: `artworks/${i + 13}.jpg`,
     width: 5,
     height: 3,
-    position: { x: 19.5, y: 2, z: -15 + 10 * i },
+    position: { x: 39.5, y: 2, z: -15 + 20 * i },
     rotationY: -Math.PI / 2,
     info: {
       title: `Van Gogh ${i + 13}`,
